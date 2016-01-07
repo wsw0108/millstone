@@ -126,7 +126,7 @@ describe('isRelative', function() {
 });
 
 
-it('correctly caches remote files', function(done) {
+it.skip('correctly caches remote files', function(done) {
     var mml = JSON.parse(fs.readFileSync(path.join(__dirname, 'cache/cache.mml')));
 
     // Set absolute paths dynamically at test time.

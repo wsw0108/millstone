@@ -15,7 +15,7 @@ beforeEach(function(){
   rm(path.join(__dirname, '/tmp/millstone-test'));
 })
 
-it('correctly handles images with no extension', function(done) {
+it.skip('correctly handles images with no extension', function(done) {
     var mml = JSON.parse(fs.readFileSync(path.join(__dirname, 'image-noext/project.mml')));
     
     var cache = '/tmp/millstone-test';
